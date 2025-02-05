@@ -4,6 +4,7 @@ import Navbar from "../components/shared/Navbar";
 import HeroSection from "../components/pages/Home/HeroSection";
 import About from "../components/pages/Home/About";
 import Services from "../components/pages/Home/Services";
+import WelcomeSection from "../components/pages/Home/WelcomeSection";
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<HeroSection />
 			<About />
 			<Services />
+			{/* <WelcomeSection /> */}
 		</div>
 	);
 };

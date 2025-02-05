@@ -45,7 +45,7 @@ const Services = () => {
 	];
 
 	return (
-		<div className="flex flex-col text-center p-6 md:p-10 lg:px-32 space-y-5 bg-[url('/images/services_bg.png')] bg-cover bg-[#F5F7FA]">
+		<div className="flex flex-col text-center p-6 md:p-10 lg:px-32 lg:py-48 space-y-5 bg-[url('/images/services_bg.png')] bg-cover bg-[#F5F7FA]">
 			<p className="font-semibold text-xl text-[#04CE78]">Our Services</p>
 			<h3 className="font-bold text-4xl">
 				Our Mediax <br /> specialties <br /> Technical service
@@ -68,6 +68,18 @@ const Services = () => {
 						</div>
 					);
 				})}
+			</div>
+			<div className="flex items-center mt-10">
+				<div className="h-[1px] w-full bg-black"></div>
+				<div className="rouned-full w-full rounded-full border p-2">
+					<p className="text-sm text-gray-500">
+						You Get Our 20+ More services...{" "}
+						<a href="#" className="text-green-500">
+							EXPLORE ALL SERVICES
+						</a>
+					</p>
+				</div>
+				<div className="h-[1px] w-full bg-black"></div>
 			</div>
 		</div>
 	);
