@@ -5,6 +5,9 @@ import HeroSection from "../components/pages/Home/HeroSection";
 import About from "../components/pages/Home/About";
 import Services from "../components/pages/Home/Services";
 import WelcomeSection from "../components/pages/Home/WelcomeSection";
+import ChooseUs from "../components/pages/Home/ChooseUs";
+import Stats from "../components/pages/Home/Stats";
+import ProfessionalDoctors from "../components/pages/Home/ProfessionalDoctors";
 
 const Home = () => {
 	return (
@@ -14,7 +17,10 @@ const Home = () => {
 			<HeroSection />
 			<About />
 			<Services />
-			{/* <WelcomeSection /> */}
+			<WelcomeSection />
+			<ChooseUs />
+			{/* <Stats /> */}
+			<ProfessionalDoctors />
 		</div>
 	);
 };

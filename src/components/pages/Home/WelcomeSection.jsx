@@ -2,8 +2,8 @@ import React from "react";
 
 const WelcomeSection = () => {
 	return (
-		<div className="bg-[url('/images/welcome_bg.jpeg')] bg-cover flex justify-center p-8 md:p-16 md:px-32 relative">
-			<div className="space-y-5 max-w-lg">
+		<div className="relative bg-[url('/images/welcome_bg.jpeg')] bg-cover flex justify-start pt-8 px-8 md:px-32 overflow-visible min-h-[400px] h-[50vh]">
+			<div className="space-y-5 max-w-lg z-10">
 				<h3 className="text-3xl md:text-4xl font-bold text-white">
 					We’re welcoming new patients <br /> and can’t wait to meet you!
 				</h3>
@@ -24,11 +24,12 @@ const WelcomeSection = () => {
 				</div>
 			</div>
 
-			<div className="absolute right-0 bottom-0 md:-top-20">
+			<div className="absolute bottom-0 left-[-5%] hidden md:left-180 lg:block">
 				<img
 					src="/images/group_doctors.png"
 					alt="group-doctors"
-					className="w-[50vw] md:w-[30vw] max-w-none h-auto"
+					className="w-[60vw] md:w-[40vw] lg:w-[41vw] max-w-none h-auto object-contain"
+					style={{ height: "120%" }}
 				/>
 			</div>
 		</div>
