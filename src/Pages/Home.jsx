@@ -8,6 +8,8 @@ import WelcomeSection from "../components/pages/Home/WelcomeSection";
 import ChooseUs from "../components/pages/Home/ChooseUs";
 import Stats from "../components/pages/Home/Stats";
 import ProfessionalDoctors from "../components/pages/Home/ProfessionalDoctors";
+import Appointment from "../components/pages/Home/Appointment";
+import Footer from "../components/pages/Home/Footer";
 
 const Home = () => {
 	return (
@@ -21,6 +23,8 @@ const Home = () => {
 			<ChooseUs />
 			{/* <Stats /> */}
 			<ProfessionalDoctors />
+			<Appointment />
+			<Footer />
 		</div>
 	);
 };
