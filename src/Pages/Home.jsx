@@ -1,5 +1,4 @@
 import React from "react";
-import TopBar from "../components/pages/Home/TopBar";
 import Navbar from "../components/shared/Navbar";
 import HeroSection from "../components/pages/Home/HeroSection";
 import About from "../components/pages/Home/About";
@@ -10,10 +9,11 @@ import Stats from "../components/pages/Home/Stats";
 import ProfessionalDoctors from "../components/pages/Home/ProfessionalDoctors";
 import Appointment from "../components/pages/Home/Appointment";
 import Footer from "../components/pages/Home/Footer";
+import TopBar from "../components/pages/Home/TopBar";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="w-full">
 			<TopBar />
 			<Navbar />
 			<HeroSection />

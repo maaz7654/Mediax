@@ -69,17 +69,17 @@ const Services = () => {
 					);
 				})}
 			</div>
-			<div className="flex items-center mt-10">
-				<div className="h-[1px] w-full bg-black"></div>
-				<div className="rouned-full w-full rounded-full border p-2">
-					<p className="text-sm text-gray-500">
+			<div className="flex items-center mt-10 justify-center">
+				<div className="hidden md:flex w-full bg-black h-[1px]"></div>
+				<div className="rounded-full w-full md:max-w-[300px] lg:max-w-none border p-2">
+					<p className="text-sm text-gray-500 text-center">
 						You Get Our 20+ More services...{" "}
 						<a href="#" className="text-green-500">
 							EXPLORE ALL SERVICES
 						</a>
 					</p>
 				</div>
-				<div className="h-[1px] w-full bg-black"></div>
+				<div className="hidden md:flex w-full bg-black h-[1px]"></div>
 			</div>
 		</div>
 	);

@@ -13,7 +13,7 @@ const Appointment = () => {
 		<div className="px-6 md:px-16 lg:px-32 py-64 flex flex-col lg:flex-row justify-between items-center gap-8">
 			<div className="absolute w-full lg:max-w-[250px] min-h-[500px] rounded-2xl border-4 border-gray-300 bg-transparent hidden lg:block -z-10"></div>
 
-			<div className="bg-[#1F5FFF] text-white p-8  lg:max-w-sm rounded-2xl md:ml-25 md:h-[450px]">
+			<div className="bg-[#1F5FFF] text-white p-8 sm:mt-16 lg:mt-0 lg:max-w-sm rounded-2xl md:ml-25 md:h-[450px]">
 				<h3 className="font-bold text-white text-2xl">Working Hours</h3>
 				<p className="text-sm">
 					Variations of passages are available without anything embarrassing.
@@ -34,7 +34,7 @@ const Appointment = () => {
 			</div>
 
 			<div className="flex flex-col lg:flex-row gap-5 shadow-2xl rounded-2xl p-8 w-full">
-				<div className="flex flex-col justify-around lg:gap-6 lg:p-3 w-full">
+				<div className="flex flex-col gap-5 justify-around lg:gap-6 lg:p-3 w-full">
 					<img
 						src="/images/injection.png"
 						alt="injection"

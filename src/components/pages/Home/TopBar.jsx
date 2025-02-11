@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
-const topBar = () => {
+const TopBar = () => {
 	const iconSize = 13;
 	const items = [
 		{
@@ -40,4 +40,4 @@ const topBar = () => {
 	);
 };
 
-export default topBar;
+export default TopBar;
