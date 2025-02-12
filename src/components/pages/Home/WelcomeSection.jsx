@@ -24,12 +24,12 @@ const WelcomeSection = () => {
 				</div>
 			</div>
 
-			<div className="absolute bottom-0 left-[-5%] hidden md:left-180 lg:block">
+			<div className="absolute bottom-0 left-[5%] hidden md:left-170 lg:block">
 				<img
 					src="/images/group_doctors.png"
 					alt="group-doctors"
-					className="w-[60vw] md:w-[40vw] lg:w-[41vw] max-w-none h-auto object-contain"
-					style={{ height: "120%" }}
+					className="w-[60vw] md:w-[40vw] lg:w-[41vw] max-w-full h-auto object-contain"
+					style={{ height: "auto" }}
 				/>
 			</div>
 		</div>

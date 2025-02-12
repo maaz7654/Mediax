@@ -60,7 +60,9 @@ const Services = () => {
 							<div className="p-3 bg-[#E6E9EE] rounded-full w-16 h-16 flex justify-center">
 								<img src={item.icon} alt="internal" className="w-16 h-auto" />
 							</div>
-							<h3 className="font-bold text-2xl">{item.desc}</h3>
+							<h3 className="font-bold text-lg md:text-xl sm:text-2xl lg:text-xl xl:text-2xl">
+								{item.desc}
+							</h3>
 							<p className="text-gray-400 text-lg">{item.count}</p>
 							<button className="bg-gradient-to-b from-blue-300 to-blue-100 text-black font-semibold rounded-full px-3 md:px-6 p-2 md:py-3 shadow-lg text-sm hover:from-blue-400 hover:to-blue-200">
 								<a href="#">READ MORE</a>
